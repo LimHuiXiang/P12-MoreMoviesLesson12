@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MoreMoviesLesson12</string>
+    <string name="title">Movie Title</string>
+    <string name="genre">Genre</string>
+    <string name="year">Year</string>
+    <string name="rating">Rating</string>
+    <string name="insert">INSERT</string>
+    <string name="list">SHOW LIST</string>
+    <string name="show">SHOW MOVIES BY RATING</string>
+    <string name="id">Movie ID</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="cancel">CANCEL</string>
+    <string name ="edit"> EDIT</string>
+
+
+    <string-array name="ratings">
+        <item>PG13</item>
+        <item>NC16</item>
+        <item>M18</item>
+        <item>R21</item>
+    </string-array>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/movie">
+
+    <TextView
+        android:id="@+id/textViewMovieID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#061A8C"
+        android:textStyle="bold"
+        android:text="@string/id" />
+
+    <EditText
+        android:id="@+id/editTextMovieID2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter movie ID here" />
+
+    <TextView
+        android:id="@+id/textViewMovieTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#061A8C"
+        android:textStyle="bold"
+        android:text="@string/title" />
+
+    <EditText
+        android:id="@+id/editTextMovieTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter movie title here" />
+
+    <TextView
+        android:id="@+id/textViewGenre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#061A8C"
+        android:textStyle="bold"
+        android:text="@string/genre" />
+
+
+    <EditText
+        android:id="@+id/editTextGenre2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter genre here" />
+
+    <TextView
+        android:id="@+id/textViewYear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#061A8C"
+        android:textStyle="bold"
+        android:text="@string/year" />
+
+    <EditText
+        android:id="@+id/editTextYear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter year here" />
+
+    <TextView
+        android:id="@+id/textViewRating2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#061A8C"
+        android:textStyle="bold"
+        android:text="@string/rating" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ratings"/>
+
+    <Button
+        android:id="@+id/bUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update" />
+
+    <Button
+        android:id="@+id/bDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete" />
+
+    <Button
+        android:id="@+id/bCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel" />
+</LinearLayout>
